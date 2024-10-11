@@ -1,0 +1,9 @@
+services:
+  task_1:
+    build: task_1
+    ports:
+      - "5123:5000"
+  task_2:
+    build: task_2
+    ports:
+      - "6969:6969"
